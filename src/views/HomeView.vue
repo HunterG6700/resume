@@ -1,9 +1,7 @@
 <template>
 
-<div :style="myStyle" id="wrapper">
   <title>Home</title>
-  <div  class="home" >
-
+     <div  class="home" >
 
     <h1><big>Home</big></h1>
     <v-avatar
@@ -20,7 +18,9 @@
     </v-avatar>Hunter Goller
 
   </div>
-  </div>
+
+ 
+
 </template>
 
 <script>
@@ -54,5 +54,6 @@ export default defineComponent({
   text-align: center;
 
 }
+
 
 </style>

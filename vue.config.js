@@ -1,14 +1,9 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: '/resume/',
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/resume/'
+    : '/',
   transpileDependencies: true,
-	pages: {
-    index: {
-      entry: 'src/main.js',
-      template: 'public/index.html',
-      filename: 'index.html'
-    }
-  },
   
 
   pluginOptions: {

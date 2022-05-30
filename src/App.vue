@@ -1,4 +1,5 @@
 <template>
+
 <div :style="myStyle" id="wrapper">
   <nav>
     <router-link to="/">Home</router-link> |
@@ -7,10 +8,12 @@
   </nav>
   <router-view/>
   </div>
+ 
 </template>
 
 <style>
 #app {
+  background-color: ;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -31,8 +34,8 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 
-#wrapper {
-  background-color: #16a085;
-
+body{
+  background-color: dimgray;
 }
+
 </style>
