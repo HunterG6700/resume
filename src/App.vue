@@ -35,7 +35,12 @@ nav a.router-link-exact-active {
 }
 
 body{
-  background-color: dimgray;
-}
+  background-color: #0b803c;
+  background-image:
+    linear-gradient(
+        to top right, 
+      rgb(19, 180, 92), #0b803c
+      
+    );}
 
 </style>

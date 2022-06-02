@@ -3,7 +3,7 @@
   <title>Home</title>
      <div  class="home" >
 
-    <h1><big>Home</big></h1>
+
     <v-avatar
       size="200"
       >
@@ -15,7 +15,28 @@
 ></v-img>
       
 
-    </v-avatar>Hunter Goller
+    </v-avatar> <font size="+10"><big>Hunter Goller </big> </font>
+          <!--phoine number-->
+    <p>
+      <big>Phone Number:</big>
+    </p>
+    <p>
+      <a href="tel:+1-814-289-9650">(814) 289-9650</a>
+    </p>
+      <p>
+      <big> Socials:</big>
+    </p>
+    <p>
+      <a href="https://www.linkedin.com/in/hunter-goller/">LinkedIn</a>
+    </p>
+    <p>
+      <a href="https://github.com/HunterG6700">Github</a>
+    </p>
+
+    <p>
+      <a href="mailto:hgoller6700@gmail.com">Email</a>
+    </p>
+
 
   </div>
 
@@ -39,11 +60,10 @@ export default defineComponent({
 
   setup() {
     return {
-      myStyle:{
-            backgroundColor:"#16a085" 
-            }
-    };
+          "HEllo": "World",
+    }
   }
+            
 });
 </script>
 
